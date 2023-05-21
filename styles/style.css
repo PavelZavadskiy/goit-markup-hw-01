@@ -101,9 +101,8 @@ header {
 
 /* MAIN SECTION ORDER SERVICE START*/
 .main__block__order__service {
-    height: 600px;
     background-color: #2F303A;
-    padding-top: 200px;
+    padding: 200px 0;
 }
 
 .main__block__order__service h1 {
