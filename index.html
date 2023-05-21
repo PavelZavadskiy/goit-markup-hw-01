@@ -6,11 +6,112 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="./styles/reset.css">
     <link rel="stylesheet" href="./styles/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@500;700&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
-    <h1>Hello world!</h1>
+    <header>
+        <div class="header__block__textlogo__link">
+            <a class="textlogo__link" href="#">
+                <span class="textlogo__link__blue">Web</span><span class="textlogo__link__dark">Studio</span>
+            </a>
+        </div>
+        <nav class="header__nav">
+            <ul>
+                <li>
+                    <a class="header__nav__link" href="#">Студія</a>
+                </li>
+                <li>
+                    <a class="header__nav__link" href="#">Портфоліо</a>
+                </li>
+                <li>
+                    <a class="header__nav__link" href="#">Контакти</a>
+                </li>
+            </ul>
+        </nav>
+        <div class="header__contacts">
+            <a class="header__contacts__email" href="mailto:info@devstudio.com" target="_blank">info@devstudio.com</a>
+            <a class="header__contacts__phone" href="tel:+380961111111" target="_blank">+38 096 111 11 11</a>
+        </div>
+    </header>
+
+    <main>
+        <section class="main__block__order__service">
+            <h1>Ефективні рішення для вашого бізнесу</h1>
+            <button class="btn__order__service">Замовити послугу</button>
+        </section>
+        <section class="main__block__info">
+            <div class="main__block__info_advantages">
+                <div>
+                    <h4>УВАГА ДО ДЕТАЛЕЙ</h4>
+                    <p>Ідейні міркування, і навіть початок повсякденної роботи з формування позиції.</p>
+                </div>
+                <div>
+                    <h4>ПУНКТУАЛЬНІСТЬ</h4>
+                    <p>Завдання організації, особливо рамки і місце навчання кадрів тягне у себе.</p>
+                </div>
+                <div>
+                    <h4>ПЛАНУВАННЯ</h4>
+                    <p>Так само консультація з широким активом значною мірою зумовлює.</p>
+                </div>
+                <div>
+                    <h4>СУЧАСНІ ТЕХНОЛОГІЇ</h4>
+                    <p>Значимість цих проблем настільки очевидна, що реалізація планових завдань.</p>
+                </div>
+            </div>
+            <div class="main__block__info__doing">
+                <h2>Чим ми займаємося</h2>
+                <div>
+                    <img src="./images/box_1.png" alt="">
+                    <img src="./images/box_2.png" alt="">
+                    <img src="./images/box_3.png" alt="">
+                </div>
+            </div>
+        </section>
+        <section class="main__block__team">
+            <h2>Наша команда</h2>
+            <div class="blocks__team__card">
+                <div class="team__card">
+                    <img src="./images/team_0.jpg" alt="">
+                    <h5>Ігор Дем'яненко</h5>
+                    <p>Product Designer</p>
+                </div>
+                <div class="team__card">
+                    <img src="./images/team_1.jpg" alt="">
+                    <h5>Ольга Рєпіна</h5>
+                    <p>Frontend Developer</p>
+                </div>
+                <div class="team__card">
+                    <img src="./images/team_2.jpg" alt="">
+                    <h5>Микола Тарасов</h5>
+                    <p>Marketing</p>
+                </div>
+                <div class="team__card">
+                    <img src="./images/team_3.jpg" alt="">
+                    <h5>Михайло Єрмаков</h5>
+                    <p>UI Designer</p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer__textlogo">
+            <a class="textlogo__link" href="#">
+                <span class="textlogo__link__blue">Web</span><span class="textlogo__link__light">Studio</span>
+            </a>
+        </div>
+        <div class="footer__contacts_block">
+            <p>м. Київ, пр-т Лесі Українки, 26</p>
+            <a class="footer__contacts__email" href="mailto:info@devstudio.com" target="_blank">info@devstudio.com</a>
+            <a class="footer__contacts__phone" href="tel:+380961111111" target="_blank">+38 096 111 11 11</a>
+        </div>
+    </footer>
+
 </body>
 
 </html>
