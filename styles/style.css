@@ -21,6 +21,17 @@
     color: #FFFFFF;
 }
 
+h2 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+    margin-bottom: 50px;
+}
+
 /* BODY START */
 
 body {
@@ -162,21 +173,11 @@ header {
     line-height: 24px;
     letter-spacing: 0.03em;
     color: #757575;
+    margin-top: 10px;
 }
 
 .main__block__info__doing {
     margin-top: 94px;
-}
-
-.main__block__info__doing h2 {
-    font-style: normal;
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 42px;
-    text-align: center;
-    letter-spacing: 0.03em;
-    color: #212121;
-    margin-bottom: 50px;
 }
 
 .main__block__info__doing div {
@@ -200,17 +201,6 @@ header {
     background-color: #ECECEC;
     text-align: center;
 
-}
-
-.main__block__team h2 {
-    font-style: normal;
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 42px;
-    text-align: center;
-    letter-spacing: 0.03em;
-    color: #212121;
-    margin-bottom: 50px;
 }
 
 .blocks__team__card {
